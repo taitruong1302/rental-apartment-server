@@ -1,11 +1,16 @@
 {
   "development": {
     "username": "root",
-    "password": "1234",
-    "database": "apartment_rental",
-    "host": "127.0.0.1",
-    "dialect": "mysql",
-    "logging": false
+    "password": "C1T29i00kuYtpYXJjRg9WA6ISB0AIEbG",
+    "database": "rental_apartment",
+    "host": "dpg-cnsfli6n7f5s73dauq9g-a.oregon-postgres.render.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
   },
   "test": {
     "username": "root",
@@ -16,9 +21,15 @@
   },
   "production": {
     "username": "root",
-    "password": null,
-    "database": "database_production",
-    "host": "127.0.0.1",
-    "dialect": "mysql"
+    "password": "C1T29i00kuYtpYXJjRg9WA6ISB0AIEbG",
+    "database": "rental_apartment",
+    "host": "dpg-cnsfli6n7f5s73dauq9g-a.oregon-postgres.render.com",
+    "dialect": "postgres",
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
   }
 }
